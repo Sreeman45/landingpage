@@ -1,0 +1,88 @@
+*{
+    background-color: hwb(120 5% 80%);
+    box-sizing: border-box;
+    margin: 0px;
+    border: 0px;
+}
+.total{
+    border:5px solid rgb(218, 218, 17);
+    height:100vh;
+    width:100vw;
+    margin-top: 20px;
+
+}
+.a1{
+    position:absolute;
+    height:350px;
+    width:350px;
+    border:3px solid gold;
+    left:40px;
+    bottom: 100px;
+
+
+}
+h1{
+    color:white;
+    
+}
+.par{
+    padding:50px;
+
+
+}
+p{
+    font-size: 20px !important;
+    color: white;
+}
+.a2{
+    float:right;
+    width:60vw;
+    height:70vh;
+    border:5px solid white;
+    margin: 30px 30px;
+    display:grid;
+    grid-template-areas:"a b b"
+                         "a c d" 
+                         "e e d" 
+                         " f g g"   
+                           ;
+  
+
+}
+.a{
+   grid-area: a;
+   border: 1px solid gold;
+   background-size: cover;
+   background-position: bottom;
+   background-blend-mode: hard-light;
+   transition: all 1s ease-in-out;
+}
+.a:hover{
+    transition: all is ease-in-out;
+    background-position: center; 
+    box-shadow: 2px 2px black;
+}
+.b{
+ grid-area: b;
+ border: 1px solid gold;
+}
+.c{
+   grid-area: c;
+   border: 1px solid gold;
+}
+.d{
+grid-area: d;
+border: 1px solid gold;
+}
+.e{
+grid-area: e;
+border: 1px solid gold;
+}
+.f{
+grid-area: f;
+border: 1px solid gold;
+}
+.g{
+grid-area: g;
+border: 1px solid gold;
+}
